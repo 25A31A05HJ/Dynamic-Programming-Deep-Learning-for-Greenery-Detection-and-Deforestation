@@ -1,0 +1,40 @@
+name: geoai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gdal
+  - rasterio
+  - geopandas
+  - shapely
+  - pyproj
+  - xarray
+  - rioxarray
+  - dask
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - opencv
+  - networkx
+  - matplotlib
+  - pandas
+  - pyarrow
+  - jupyterlab
+  - pytest
+  - pip
+  - pip:
+    - pystac-client
+    - planetary-computer
+    - odc-stac
+    - earthengine-api
+    - geemap
+    - osmnx
+    - skan
+    - pysheds
+    - pymannkendall
+    - segmentation-models-pytorch
+    - albumentations
+    - torchgeo
+    - mlflow
+    - streamlit
+    - leafmap
